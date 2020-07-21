@@ -1,0 +1,86 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart-page {
+  display: flex;
+  justify-content: center;
+}
+#homepage {
+  display: flex;
+  justify-content: center;
+}
+#Cart-div {
+  padding: 20px;
+  display: inline-block;
+}
+
+#move-cart {
+  height: 50px;
+  width: 300px;
+  cursor: pointer;
+  background-color: rgb(60, 170, 109);
+  background-image: url("https://img.icons8.com/carbon-copy/100/000000/favorite-cart.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 45px 50px;
+  border: none;
+  font-size: xx-large;
+  color: white;
+}
+
+#move-cart:hover {
+  background-color: whitesmoke;
+  color: rgb(60, 170, 109);
+  border: 1px solid rgb(60, 170, 109);
+}
+
+#move-home {
+  margin: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(112, 161, 112);
+  color: white;
+  font-size: larger;
+  border: 1px solid rgb(112, 161, 112);
+}
+
+#move-home:hover {
+  background-color: white;
+  color: rgb(112, 161, 112);
+  border: 1px solid rgb(112, 161, 112);
+}
+
+#welcome-img {
+  height: 125px;
+  margin-top: 15px;
+}
+
+#headline {
+  font-size: 50px;
+  color: rgb(224, 175, 125);
+}
+
+#second-headline {
+  color: #4e4949;
+  font-size: xx-large;
+}
+
+#cart-img {
+  height: 150px;
+  margin-top: 40px;
+}
+
+#cart-headline {
+  font-size: 60px;
+}

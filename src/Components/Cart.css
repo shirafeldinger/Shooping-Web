@@ -1,0 +1,35 @@
+.Cart {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  width: 200px;
+  box-shadow: 3px 3px 5px #ccc;
+}
+
+.cart-img {
+  height: 150px;
+  width: 150px;
+}
+
+p {
+  font-size: xx-large;
+  color: #4e4949;
+  font-weight: bolder;
+}
+
+#buy {
+  background-color: tomato;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+  border: 1px solid tomato;
+}
+
+#buy:hover {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
